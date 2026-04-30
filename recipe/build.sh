@@ -25,5 +25,5 @@ esac
 
 export CUDA_HOME="${BUILD_PREFIX}/${targetsDir}"
 
-cd nccl4py
+cd bindings/nccl4py
 $PYTHON -m pip install . --no-deps --no-build-isolation -vv
