@@ -9,3 +9,8 @@ github:
   tooling_branch_name: main
 provider:
   linux_aarch64: default
+bot:
+  version_updates:
+    allowed_tag_globs: 'nccl4py-v*'
+    sources:
+      - github
