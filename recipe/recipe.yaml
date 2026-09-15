@@ -73,7 +73,7 @@ requirements:
     # APIs introduced in 2.28 (ncclCommWindowRegister/Deregister). Older
     # NCCL would load but fail at first call to any post-2.27 symbol.
     - nccl >=2.30,<3
-    - cutlass-dsl >=4.5.2,<5
+    - nvidia-cutlass-dsl >=4.5.2,<5
 
 tests:
   # Default-env sanity: imports + pip_check. This exercises whichever
