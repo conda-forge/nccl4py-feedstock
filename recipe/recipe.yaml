@@ -16,7 +16,7 @@ source:
   sha256: 07d3448995105ecc2b2652b1cd93b31cd822446ad22da67f7564000da1d0afbb
 
 build:
-  number: 0
+  number: 1
   skip:
     - not linux
     - cuda_compiler_version == "None"
